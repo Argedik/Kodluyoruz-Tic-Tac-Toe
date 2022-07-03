@@ -9,7 +9,11 @@ function App() {
   calculateWinner(squares);
   const handleClick = (index) => {
     if (calculateWinner(squares)) {
-      setSquares([...squares]);
+      const newSquares = Array(9).fill("");
+      const newBtnClass = Array(9).fill("btn-space");
+      setBtnClass([...newBtnClass]);
+      setSquares([...newSquares]);
+      console.log("test");
       return;
     }
     if (squares[index] === null) {
