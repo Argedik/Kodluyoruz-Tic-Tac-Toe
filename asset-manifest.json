@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kodluyoruz-Tic-Tac-Toe/static/css/main.3fb7195d.css",
+    "main.js": "/Kodluyoruz-Tic-Tac-Toe/static/js/main.1ec8b79a.js",
+    "index.html": "/Kodluyoruz-Tic-Tac-Toe/index.html",
+    "main.3fb7195d.css.map": "/Kodluyoruz-Tic-Tac-Toe/static/css/main.3fb7195d.css.map",
+    "main.1ec8b79a.js.map": "/Kodluyoruz-Tic-Tac-Toe/static/js/main.1ec8b79a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fb7195d.css",
+    "static/js/main.1ec8b79a.js"
+  ]
+}
