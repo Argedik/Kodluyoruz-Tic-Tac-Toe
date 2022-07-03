@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: "Finger Paint", cursive;
+}
+.App {
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3b18c;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  font-size: 36px;
+  color: #0026ed;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+.btn-red {
+  border: 10px solid black;
+  display: flex;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.btn-red:hover {
+  text-decoration: none;
+  transition-duration: 0.5s;
+  background-color: red;
+  color: white;
+}
+.btn-blue {
+  border: 10px solid black;
+  display: flex;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+.btn-blue:hover {
+  text-decoration: none;
+  transition-duration: 0.5s;
+  background-color: blue;
+  color: white;
+}
+
+.btn-space {
+  border: 10px solid black;
+  display: flex;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-space:hover {
+  text-decoration: none;
+  background-color: rgb(151, 151, 151);
+  transition-duration: 0.5s;
+  color: white;
+}
+
+.btn-win-blue {
+  border: 10px solid blue;
+  display: flex;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+.btn-win-red {
+  border: 10px solid red;
+  display: flex;
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+  font-size: 48px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
